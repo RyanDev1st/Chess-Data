@@ -1,13 +1,7 @@
 # Quick Start
 
-## 1. Upload to GitHub
-Create a repository with this structure:
-
-sft-tone-distribution/
-  SKILL.md    # The file you just finalized
-
-Commit and push. Note the repo URL — for example:
-https://github.com/your-org/chess-coach-skills
+1. About
+   Just SKILL.md for data generator
 
 ---
 
@@ -16,11 +10,13 @@ https://github.com/your-org/chess-coach-skills
 ### Claude Code
 From your terminal:
 
+```markdown
 claude skills registry add chess-skills https://github.com/your-org/chess-coach-repo
 claude skills install chess-skills/sft-tone-distribution
+```
 
 This pulls the file into:
-~/.claude/skills/sft-tone-distribution/SKILL.md
+```~/.claude/skills/sft-tone-distribution/SKILL.md```
 
 ---
 
@@ -33,19 +29,19 @@ No install command needed.
 
 Option B — Personal (all your projects):
 Copy the skill directory to your user profile:
-~/.copilot/skills/sft-tone-distribution/SKILL.md
+```~/.copilot/skills/sft-tone-distribution/SKILL.md```
 
 ---
 
 ## 3. Verify It Works
 
 ### Claude Code
-claude skills list
+```claude skills list```
 # Should show: sft-tone-distribution
 
 ### GitHub Copilot
 Open Copilot Chat in agent mode and ask:
-"I need to audit a batch of SFT chess coach training data for tone distribution."
+`"I need to audit a batch of SFT chess coach training data for tone distribution."`
 Copilot should acknowledge the skill is active in its response.
 
 ---
