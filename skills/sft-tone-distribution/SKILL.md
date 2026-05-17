@@ -14,6 +14,7 @@ Models trained on perfectly-formed user input fail on real chat: "kngiht f6", "N
 **RULE**: 
       Read `../references/spec-v3.md` for the spec.  
       Focus on section `5- Data Format` and the system prompt in `3- UNIFIED SYSTEM PROMPT`
+
 **Violating the letter of these rules is violating the spirit of these rules.**
 
 ## When to Use
