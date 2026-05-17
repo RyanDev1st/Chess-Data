@@ -7,30 +7,11 @@
 
 ## 2. Install for Each Tool
 
-### Claude Code
 From your terminal:
 
 ```markdown
-claude skills registry add chess-skills https://github.com/your-org/chess-coach-repo
-claude skills install chess-skills/sft-tone-distribution
+npx skills@latest add RyanDev1st/Chess-Data
 ```
-
-This pulls the file into:
-```~/.claude/skills/sft-tone-distribution/SKILL.md```
-
----
-
-### GitHub Copilot
-
-Option A — Workspace (team-shared, zero-install for everyone):
-Just having the file at .github/skills/sft-tone-distribution/SKILL.md in your repo is enough.
-When any team member opens that repo with Copilot in agent mode, Copilot auto-discovers the skill.
-No install command needed.
-
-Option B — Personal (all your projects):
-Copy the skill directory to your user profile:
-```~/.copilot/skills/sft-tone-distribution/SKILL.md```
-
 ---
 
 ## 3. Verify It Works
