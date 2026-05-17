@@ -15,10 +15,8 @@ npx skills@latest add RyanDev1st/Chess-Data
 ---
 
 ## 3. Verify It Works
-
-### Claude Code
-```claude skills list```
-# Should show: sft-tone-distribution
+Type ```/sft-tone-distribution``` in the LLM chatbox
+# Should show: /sft-tone-distribution
 
 ### GitHub Copilot
 Open Copilot Chat in agent mode and ask:
