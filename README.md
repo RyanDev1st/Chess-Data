@@ -1,4 +1,4 @@
-Quick Start
+# Quick Start
 1. Upload to GitHub
 Create a repository with this structure:
 
