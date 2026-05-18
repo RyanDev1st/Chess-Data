@@ -12,7 +12,7 @@ Models trained on perfectly-formed user input fail on real chat: "kngiht f6", "N
 **Core principle:** If every user turn looks like it was written by an English teacher, the trained model will break on real users. Degraded inputs are the highest-value training examples for robustness.
 
 **RULE**: 
-      Read `../references/spec-v3.md` for the spec.  
+      Read `../references/spec-v3.md` for the reference spec. This spec is not final and it's merely for reference.  
       Focus on section `5- Data Format` and the system prompt in `3- UNIFIED SYSTEM PROMPT`
 
 **Violating the letter of these rules is violating the spirit of these rules.**
